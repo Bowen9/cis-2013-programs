@@ -1,0 +1,10 @@
+     var floatAge, floatDays, intWeeks, floatMonths, intFortnights;
+     floatAge = parseFloat(prompt("Enter your age"));
+     floatDays = (floatAge*365.25).toFixed(2);
+     floatMonths = (floatAge*12).toFixed(2);
+     intWeeks = (floatDays/7).toFixed(2);
+     floatFortnights = (floatDays/14).toFixed(2);
+     alert("You living in this world for" + floatDays + "days");
+     alert("You living in this world for" + floatMonths + "months");
+     alert("You living in this world for" + intWeeks + "weeks");
+     alert("You living in this world for" + floatFortnights + "fortnights!");
